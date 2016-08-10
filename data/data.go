@@ -10,6 +10,6 @@ func New(contentType string) *Data {
 	}
 }
 
-func (d *Data) GetContentType() {
+func (d *Data) GetContentType() string {
 	return d.contentType
 }
